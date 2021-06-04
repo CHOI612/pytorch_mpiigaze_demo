@@ -19,7 +19,7 @@ setup(
     name='ptgaze',
     version='0.0.4',
     author='hysts',
-    url='https://github.com/SHOI612/pytorch_mpiigaze_demo',
+    url='https://github.com/CHOI612/pytorch_mpiigaze_demo',
     python_requires='>=3.7',
     install_requires=_get_requirements('requirements.txt'),
     packages=find_packages(exclude=('tests', )),
