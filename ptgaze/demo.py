@@ -69,8 +69,9 @@ class Demo:
             if not ok:
                 break
             self._process_image(frame)
-
+            space_img = np.full((640, 640, 3),255, dtype = np.uint8)
             if self.config.demo.display_on_screen:
+                cv2.imshow('test',space_img)
                 cv2.imshow('frame', self.visualizer.image)
         self.cap.release()
         if self.writer:
